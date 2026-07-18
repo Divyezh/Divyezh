@@ -56,7 +56,7 @@
 ### 🏆 Trophies
 
 <div align="center">
-<img src="trophies.svg?v=1" width="95%"/>
+<img src="trophies.svg?v=2" width="95%"/>
 </div>
 
 ---

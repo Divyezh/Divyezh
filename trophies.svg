@@ -1,100 +1,82 @@
-<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#141414"/>
-      <stop offset="100%" stop-color="#050505"/>
-    </linearGradient>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF4500" stop-opacity="0.4"/>
-      <stop offset="50%" stop-color="#FF7A00" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#FFB347" stop-opacity="0.4"/>
-    </linearGradient>
-    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FF4500"/>
-      <stop offset="100%" stop-color="#FFB347"/>
-    </linearGradient>
-    <filter id="trophyGlow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  
-  <!-- Background -->
-  <rect width="800" height="120" rx="14" fill="#0d0d0d" stroke="#FF4500" stroke-opacity="0.3"/>
-  
-  <!-- CARD 1: SaaS Builder -->
-  <g transform="translate(16, 16)">
-    <rect width="180" height="88" rx="10" fill="url(#cardGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
-    <!-- Icon: Trophy -->
-    <g filter="url(#trophyGlow)">
-      <path d="M 32,24 L 48,24 L 48,28 C 48,36 42,42 34,42 C 32,42 32,32 32,24 Z" fill="none" stroke="#FF7A00" stroke-width="2"/>
-      <path d="M 48,24 L 32,24 L 32,28 C 32,36 38,42 46,42 C 48,42 48,32 48,24 Z" fill="none" stroke="#FF7A00" stroke-width="2" transform="translate(80,0) scale(-1,1)"/>
-      <path d="M 36,20 L 44,20 L 44,36 C 44,42 36,42 36,36 Z" fill="url(#glowGrad)"/>
-      <rect x="38" y="44" width="4" height="8" fill="#FF7A00"/>
-      <path d="M 32,52 L 48,52 L 44,56 L 36,56 Z" fill="#FFB347"/>
+<svg width="760" height="180" viewBox="0 0 760 180" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="trophyShine" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<g id="cells" font-family="'Poppins','Segoe UI',sans-serif">
+  <!-- template cell generator, 6 cells -->
+  <g transform="translate(10,10)">
+    <g opacity="0"><animateTransform attributeName="transform" type="scale" from="0.6" to="1" dur="0.4s" begin="0.1s" fill="freeze" additive="sum"/><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.1s" fill="freeze"/>
+      <rect width="115" height="160" rx="12" fill="#0d0d0d" stroke="#FFD700" stroke-opacity="0.6"/>
+      <text x="57" y="55" text-anchor="middle" font-size="34">🏆</text>
+      <text x="57" y="90" text-anchor="middle" font-size="12" fill="#FFD700" font-weight="700">MultiLang</text>
+      <text x="57" y="108" text-anchor="middle" font-size="11" fill="#8a8a8a">Rank S</text>
+      <rect x="30" y="130" width="55" height="18" rx="9" fill="#1a1a1a" stroke="#FFD700"/>
+      <text x="57" y="143" text-anchor="middle" font-size="10" fill="#FFD700">GOLD</text>
     </g>
-    <!-- Text -->
-    <text x="64" y="34" font-family="'Poppins','Segoe UI',sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">SaaS Builder</text>
-    <text x="64" y="50" font-family="'Fira Code',Consolas,monospace" font-size="10" fill="#FF9E5E">VELVET.AI</text>
-    <text x="64" y="66" font-family="'Fira Code',Consolas,monospace" font-size="9" fill="#8a8a8a">Live Sandbox SaaS</text>
   </g>
 
-  <!-- CARD 2: Frontend Master -->
-  <g transform="translate(212, 16)">
-    <rect width="180" height="88" rx="10" fill="url(#cardGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
-    <!-- Icon: React Code / Atom -->
-    <g filter="url(#trophyGlow)" stroke="#FF7A00" stroke-width="1.5" fill="none">
-      <ellipse cx="40" cy="38" rx="6" ry="18" transform="rotate(30, 40, 38)"/>
-      <ellipse cx="40" cy="38" rx="6" ry="18" transform="rotate(90, 40, 38)"/>
-      <ellipse cx="40" cy="38" rx="6" ry="18" transform="rotate(150, 40, 38)"/>
-      <circle cx="40" cy="38" r="3" fill="#FFB347"/>
+  <g transform="translate(135,10)">
+    <g opacity="0"><animateTransform attributeName="transform" type="scale" from="0.6" to="1" dur="0.4s" begin="0.25s" fill="freeze" additive="sum"/><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.25s" fill="freeze"/>
+      <rect width="115" height="160" rx="12" fill="#0d0d0d" stroke="#FF7A00" stroke-opacity="0.6"/>
+      <text x="57" y="55" text-anchor="middle" font-size="34">🔥</text>
+      <text x="57" y="90" text-anchor="middle" font-size="12" fill="#FF7A00" font-weight="700">Commits</text>
+      <text x="57" y="108" text-anchor="middle" font-size="11" fill="#8a8a8a">Rank A+</text>
+      <rect x="30" y="130" width="55" height="18" rx="9" fill="#1a1a1a" stroke="#FF7A00"/>
+      <text x="57" y="143" text-anchor="middle" font-size="10" fill="#FF7A00">SILVER</text>
     </g>
-    <!-- Text -->
-    <text x="64" y="34" font-family="'Poppins','Segoe UI',sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">Frontend Master</text>
-    <text x="64" y="50" font-family="'Fira Code',Consolas,monospace" font-size="10" fill="#FF9E5E">React &amp; Next.js</text>
-    <text x="64" y="66" font-family="'Fira Code',Consolas,monospace" font-size="9" fill="#8a8a8a">Cinematic Motion</text>
   </g>
 
-  <!-- CARD 3: AI Architect -->
-  <g transform="translate(408, 16)">
-    <rect width="180" height="88" rx="10" fill="url(#cardGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
-    <!-- Icon: AI Brain/Chip -->
-    <g filter="url(#trophyGlow)">
-      <rect x="28" y="26" width="24" height="24" rx="4" fill="none" stroke="#FF7A00" stroke-width="2"/>
-      <line x1="24" y1="32" x2="28" y2="32" stroke="#FFB347" stroke-width="2"/>
-      <line x1="24" y1="38" x2="28" y2="38" stroke="#FFB347" stroke-width="2"/>
-      <line x1="24" y1="44" x2="28" y2="44" stroke="#FFB347" stroke-width="2"/>
-      <line x1="52" y1="32" x2="56" y2="32" stroke="#FFB347" stroke-width="2"/>
-      <line x1="52" y1="38" x2="56" y2="38" stroke="#FFB347" stroke-width="2"/>
-      <line x1="52" y1="44" x2="56" y2="44" stroke="#FFB347" stroke-width="2"/>
-      <line x1="32" y1="22" x2="32" y2="26" stroke="#FFB347" stroke-width="2"/>
-      <line x1="38" y1="22" x2="38" y2="26" stroke="#FFB347" stroke-width="2"/>
-      <line x1="44" y1="22" x2="44" y2="26" stroke="#FFB347" stroke-width="2"/>
-      <line x1="32" y1="50" x2="32" y2="54" stroke="#FFB347" stroke-width="2"/>
-      <line x1="38" y1="50" x2="38" y2="54" stroke="#FFB347" stroke-width="2"/>
-      <line x1="44" y1="50" x2="44" y2="54" stroke="#FFB347" stroke-width="2"/>
-      <circle cx="40" cy="38" r="4" fill="url(#glowGrad)"/>
+  <g transform="translate(260,10)">
+    <g opacity="0"><animateTransform attributeName="transform" type="scale" from="0.6" to="1" dur="0.4s" begin="0.4s" fill="freeze" additive="sum"/><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.4s" fill="freeze"/>
+      <rect width="115" height="160" rx="12" fill="#0d0d0d" stroke="#FFB347" stroke-opacity="0.6"/>
+      <text x="57" y="55" text-anchor="middle" font-size="34">⭐</text>
+      <text x="57" y="90" text-anchor="middle" font-size="12" fill="#FFB347" font-weight="700">Stars</text>
+      <text x="57" y="108" text-anchor="middle" font-size="11" fill="#8a8a8a">Rank A</text>
+      <rect x="30" y="130" width="55" height="18" rx="9" fill="#1a1a1a" stroke="#FFB347"/>
+      <text x="57" y="143" text-anchor="middle" font-size="10" fill="#FFB347">BRONZE</text>
     </g>
-    <!-- Text -->
-    <text x="64" y="34" font-family="'Poppins','Segoe UI',sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">AI Architect</text>
-    <text x="64" y="50" font-family="'Fira Code',Consolas,monospace" font-size="10" fill="#FF9E5E">LLM Sandbox</text>
-    <text x="64" y="66" font-family="'Fira Code',Consolas,monospace" font-size="9" fill="#8a8a8a">Streaming Gen</text>
   </g>
 
-  <!-- CARD 4: Code Hustler -->
-  <g transform="translate(604, 16)">
-    <rect width="180" height="88" rx="10" fill="url(#cardGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
-    <!-- Icon: Flame -->
-    <g filter="url(#trophyGlow)">
-      <path d="M 40,20 C 40,20 48,28 48,36 C 48,44 42,48 40,48 C 38,48 32,44 32,36 C 32,28 40,20 40,20 Z" fill="url(#glowGrad)"/>
-      <path d="M 40,26 C 40,26 44,32 44,37 C 44,42 41,44 40,44 C 39,44 36,42 36,37 C 36,32 40,26 40,26 Z" fill="#FFE4CC"/>
+  <g transform="translate(385,10)">
+    <g opacity="0"><animateTransform attributeName="transform" type="scale" from="0.6" to="1" dur="0.4s" begin="0.55s" fill="freeze" additive="sum"/><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.55s" fill="freeze"/>
+      <rect width="115" height="160" rx="12" fill="#0d0d0d" stroke="#FF4500" stroke-opacity="0.6"/>
+      <text x="57" y="55" text-anchor="middle" font-size="34">🚀</text>
+      <text x="57" y="90" text-anchor="middle" font-size="12" fill="#FF4500" font-weight="700">Followers</text>
+      <text x="57" y="108" text-anchor="middle" font-size="11" fill="#8a8a8a">Rank B+</text>
+      <rect x="30" y="130" width="55" height="18" rx="9" fill="#1a1a1a" stroke="#FF4500"/>
+      <text x="57" y="143" text-anchor="middle" font-size="10" fill="#FF4500">BRONZE</text>
     </g>
-    <!-- Text -->
-    <text x="64" y="34" font-family="'Poppins','Segoe UI',sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">Code Hustler</text>
-    <text x="64" y="50" font-family="'Fira Code',Consolas,monospace" font-size="10" fill="#FF9E5E">600+ Commits</text>
-    <text x="64" y="66" font-family="'Fira Code',Consolas,monospace" font-size="9" fill="#8a8a8a">Always Building</text>
   </g>
+
+  <g transform="translate(510,10)">
+    <g opacity="0"><animateTransform attributeName="transform" type="scale" from="0.6" to="1" dur="0.4s" begin="0.7s" fill="freeze" additive="sum"/><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.7s" fill="freeze"/>
+      <rect width="115" height="160" rx="12" fill="#0d0d0d" stroke="#FFD700" stroke-opacity="0.6"/>
+      <text x="57" y="55" text-anchor="middle" font-size="34">📅</text>
+      <text x="57" y="90" text-anchor="middle" font-size="12" fill="#FFD700" font-weight="700">AncientUser</text>
+      <text x="57" y="108" text-anchor="middle" font-size="11" fill="#8a8a8a">Rank A</text>
+      <rect x="30" y="130" width="55" height="18" rx="9" fill="#1a1a1a" stroke="#FFD700"/>
+      <text x="57" y="143" text-anchor="middle" font-size="10" fill="#FFD700">GOLD</text>
+    </g>
+  </g>
+
+  <g transform="translate(635,10)">
+    <g opacity="0"><animateTransform attributeName="transform" type="scale" from="0.6" to="1" dur="0.4s" begin="0.85s" fill="freeze" additive="sum"/><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.85s" fill="freeze"/>
+      <rect width="115" height="160" rx="12" fill="#0d0d0d" stroke="#FF9E5E" stroke-opacity="0.6"/>
+      <text x="57" y="55" text-anchor="middle" font-size="34">🧠</text>
+      <text x="57" y="90" text-anchor="middle" font-size="12" fill="#FF9E5E" font-weight="700">Experience</text>
+      <text x="57" y="108" text-anchor="middle" font-size="11" fill="#8a8a8a">Rank B</text>
+      <rect x="30" y="130" width="55" height="18" rx="9" fill="#1a1a1a" stroke="#FF9E5E"/>
+      <text x="57" y="143" text-anchor="middle" font-size="10" fill="#FF9E5E">BRONZE</text>
+    </g>
+  </g>
+</g>
+
+<rect x="-120" y="0" width="80" height="180" fill="url(#trophyShine)" transform="skewX(-15)">
+  <animateTransform attributeName="transform" type="translate" additive="sum" values="0,0;950,0" dur="4s" begin="1.2s" repeatCount="indefinite"/>
+</rect>
 </svg>
