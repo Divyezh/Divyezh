@@ -1,22 +1,28 @@
 <div align="center">
 
-<img src="assets/hero-banner.svg" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+  <img alt="banner" src="banner.svg?v=1" width="100%">
+</picture>
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Building+AI-powered+SaaS+products;React.js+%7C+Next.js+%7C+TypeScript;Creator+of+VELVET.AI+🚀;Currently+shipping+VELVET.AI's+IDE+sandbox;Open+to+Frontend+Internships&font=Fira%20Code&center=true&width=650&height=45&color=FF4500&vCenter=true&size=20&pause=1200" alt="Typing SVG" />
+<br/><br/>
+
+<img src="lanyard.svg?v=1" width="220"/>
 
 </div>
 
----
+<br/>
 
-### 🚀 About Me
+### 👋 About Me
 
-- 🎓 Integrated M.Sc. IT student at Silver Oak University (Class of 2026)
+- 🎓 Integrated M.Sc. IT student at Silver Oak University, Ahmedabad (Class of 2026)
 - 💻 Frontend Developer specializing in **React.js, Next.js, TypeScript**
-- 🤖 Building **VELVET.AI** — an AI-powered website builder SaaS (IDE, sandbox, streaming AI generation)
-- 🌱 Deep interest in **AI/LLM integrations** and production-grade SaaS products
-- 📍 Based in Ahmedabad, India
-- 🔍 Actively looking for **Frontend Developer internships**
-- 📫 Reach me at **sonidivyesh2004@gmail.com**
+- 🤖 Building **VELVET.AI** — an AI-powered website builder SaaS (IDE, live sandbox, streaming AI generation)
+- 🎨 Obsessed with cinematic UI, scroll-driven motion (GSAP, Framer Motion, Lenis)
+- 🌱 Currently deepening AI/LLM integration work
+- 🔍 Actively looking for **Frontend Developer internships** in Ahmedabad
+- 📫 **sonidivyesh2004@gmail.com**
 
 ---
 
@@ -28,9 +34,42 @@
 
 ---
 
-### 🐍 Contribution Snake
+### 📌 Featured Projects
 
-*Animates automatically — eats your real contribution graph. Refreshes every 6 hours via GitHub Action.*
+| Project | Description | Stack |
+|---|---|---|
+| **VELVET.AI** | AI-powered website builder SaaS with live sandbox preview and streaming generation | Next.js · TypeScript · Nvidia AI (Mixtral) |
+| **Performance Analytics Dashboard** | Real-time analytics dashboard with data visualization | React · Node.js |
+| **AI Website Generator** (Final Year Project) | Full-stack AI website generator, published as an IEEE-format research paper | React · Express · PostgreSQL · GPT-4 |
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+<img src="stats.svg?v=1" width="48%"/>
+<img src="langs.svg?v=1" width="48%"/>
+</div>
+
+---
+
+### 🏆 Trophies
+
+<div align="center">
+<img src="trophies.svg?v=1" width="95%"/>
+</div>
+
+---
+
+### 📈 Contribution Activity
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Divyezh&theme=react-dark&hide_border=true&bg_color=0D1117&color=FF7A00&line=FF4500&point=FFFFFF" width="90%"/>
+</div>
+
+---
+
+### 🐍 Contribution Snake
 
 <div align="center">
 <picture>
@@ -42,48 +81,15 @@
 
 ---
 
-### 📊 Live Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Divyezh&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FF7A00&text_color=FFFFFF" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Divyezh&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=FFFFFF" width="48%"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Divyezh&theme=radical&hide_border=true&background=0D1117&ring=FF4500&fire=FF7A00&currStreakLabel=FF4500" width="70%"/>
-
-</div>
-
----
-
-### 🏆 Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Divyezh&theme=radical&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" />
-</div>
-
----
-
-### 📈 Activity Graph
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Divyezh&theme=react-dark&hide_border=true&bg_color=0D1117&color=FF7A00&line=FF4500&point=FFFFFF" width="90%"/>
-</div>
-
----
-
-### 🌐 Connect With Me
+### 🌐 Connect
 
 <div align="center">
 
 <a href="https://github.com/Divyezh"><img src="https://skillicons.dev/icons?i=github" /></a>
 <a href="mailto:sonidivyesh2004@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
 
-</div>
-
-<div align="center">
+<br/><br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Divyezh&color=FF4500&style=flat-square&label=Profile+Views)
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FF4500&height=100&section=footer" width="100%"/>
