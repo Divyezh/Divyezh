@@ -1,0 +1,80 @@
+{
+  "username": "Divyezh",
+  "name": "Divyesh Soni",
+  "bio": "Full-Stack WebRTC & Frontend Engineer. Building real-time, high-performance web products.",
+  "totalStars": 224,
+  "totalRepos": 32,
+  "commitsThisYear": 648,
+  "pullRequests": 28,
+  "topLanguages": [
+    { "name": "TypeScript", "percentage": 42, "color": "#3178c6" },
+    { "name": "JavaScript", "percentage": 28, "color": "#e8821a" },
+    { "name": "CSS / Tailwind", "percentage": 15, "color": "#38bdf8" },
+    { "name": "Python", "percentage": 10, "color": "#10b981" },
+    { "name": "HTML", "percentage": 5, "color": "#71717a" }
+  ],
+  "pinnedRepos": [
+    {
+      "name": "meeting-app",
+      "description": "VIVA — Ultra-Low Latency Peer-to-Peer Video Communication Suite with Native WebRTC & React 19",
+      "stars": 142,
+      "forks": 18,
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "url": "https://github.com/Divyezh/meeting-app",
+      "updatedAt": "2026-10-18T14:30:00Z"
+    },
+    {
+      "name": "strategy-game",
+      "description": "MediCity — Autonomous 3D Hospital Strategy & Logistics Simulation with Three.js & Zustand",
+      "stars": 54,
+      "forks": 9,
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "url": "https://github.com/Divyezh/strategy-game",
+      "updatedAt": "2026-10-12T09:15:00Z"
+    },
+    {
+      "name": "AR-Hologram",
+      "description": "Real-Time Neural WebAR & Holographic VFX in the browser using Google MediaPipe & WebGL",
+      "stars": 28,
+      "forks": 4,
+      "language": "JavaScript",
+      "languageColor": "#e8821a",
+      "url": "https://github.com/Divyezh/AR-Hologram",
+      "updatedAt": "2026-10-02T16:45:00Z"
+    }
+  ],
+  "latestActivity": [
+    {
+      "type": "PushEvent",
+      "repo": "Divyezh/meeting-app",
+      "message": "feat: optimize WebRTC peer reconnection & audio waveform analyzer",
+      "date": "2026-10-18T14:28:00Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "Divyezh/meeting-app",
+      "message": "feat: implement host waiting room admission approval modal",
+      "date": "2026-10-16T18:12:00Z"
+    },
+    {
+      "type": "CreateEvent",
+      "repo": "Divyezh/strategy-game",
+      "message": "feat: add procedural ambulance dispatching logic to campus logistics",
+      "date": "2026-10-10T11:40:00Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "Divyezh/AR-Hologram",
+      "message": "fix: calculate palm normal quaternion with updated joint landmarks",
+      "date": "2026-10-02T15:20:00Z"
+    },
+    {
+      "type": "ReleaseEvent",
+      "repo": "Divyezh/meeting-app",
+      "message": "release: v1.2.0 zero-SDK WebRTC P2P core",
+      "date": "2026-09-28T20:00:00Z"
+    }
+  ]
+}

@@ -1,30 +1,29 @@
 <svg width="480" height="200" viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
-<rect width="480" height="200" rx="14" fill="#0d0d0d" stroke="#FF4500" stroke-opacity="0.3"/>
-<text x="24" y="34" font-family="'Poppins','Segoe UI',sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Most Used Languages</text>
+<rect width="480" height="200" rx="14" fill="#0A0A0C" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
+<text x="24" y="34" font-family="'Space Grotesk',sans-serif" font-weight="700" font-size="17" fill="#F4F4F5">Top Languages</text>
 
-<g font-family="'Fira Code',Consolas,monospace" font-size="13" fill="#FFD9B3">
+<g font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#A1A1AA">
   <!-- TypeScript -->
-  <text x="24" y="66">TypeScript</text><text x="420" y="66" fill="#FF9E5E">38%</text>
-  <rect x="24" y="74" width="396" height="10" rx="5" fill="#1a0700"/>
-  <rect x="24" y="74" width="0" height="10" rx="5" fill="#3178C6"><animate attributeName="width" from="0" to="150" dur="1s" begin="0.3s" fill="freeze"/></rect>
+  <text x="24" y="66">TypeScript</text><text x="430" y="66" fill="#FFAA44" font-weight="600" text-anchor="end">42%</text>
+  <rect x="24" y="74" width="406" height="6" rx="3" fill="#1A1A20"/>
+  <rect x="24" y="74" width="0" height="6" rx="3" fill="#3178C6"><animate attributeName="width" from="0" to="170" dur="1s" begin="0.2s" fill="freeze"/></rect>
 
   <!-- JavaScript -->
-  <text x="24" y="98">JavaScript</text><text x="420" y="98" fill="#FF9E5E">26%</text>
-  <rect x="24" y="106" width="396" height="10" rx="5" fill="#1a0700"/>
-  <rect x="24" y="106" width="0" height="10" rx="5" fill="#F1E05A"><animate attributeName="width" from="0" to="103" dur="1s" begin="0.5s" fill="freeze"/></rect>
+  <text x="24" y="98">JavaScript (React / Node)</text><text x="430" y="98" fill="#FFAA44" font-weight="600" text-anchor="end">28%</text>
+  <rect x="24" y="106" width="406" height="6" rx="3" fill="#1A1A20"/>
+  <rect x="24" y="106" width="0" height="6" rx="3" fill="#E8821A"><animate attributeName="width" from="0" to="114" dur="1s" begin="0.4s" fill="freeze"/></rect>
 
-  <!-- CSS -->
-  <text x="24" y="130">CSS</text><text x="420" y="130" fill="#FF9E5E">16%</text>
-  <rect x="24" y="138" width="396" height="10" rx="5" fill="#1a0700"/>
-  <rect x="24" y="138" width="0" height="10" rx="5" fill="#563D7C"><animate attributeName="width" from="0" to="63" dur="1s" begin="0.7s" fill="freeze"/></rect>
+  <!-- CSS / Tailwind -->
+  <text x="24" y="130">CSS &amp; Tailwind CSS</text><text x="430" y="130" fill="#FFAA44" font-weight="600" text-anchor="end">15%</text>
+  <rect x="24" y="138" width="406" height="6" rx="3" fill="#1A1A20"/>
+  <rect x="24" y="138" width="0" height="6" rx="3" fill="#38BDF8"><animate attributeName="width" from="0" to="61" dur="1s" begin="0.6s" fill="freeze"/></rect>
 
-  <!-- Python -->
-  <text x="24" y="162">Python</text><text x="420" y="162" fill="#FF9E5E">12%</text>
-  <rect x="24" y="170" width="396" height="10" rx="5" fill="#1a0700"/>
-  <rect x="24" y="170" width="0" height="10" rx="5" fill="#3572A5"><animate attributeName="width" from="0" to="47" dur="1s" begin="0.9s" fill="freeze"/></rect>
+  <!-- Python / SQL -->
+  <text x="24" y="162">Python &amp; SQL</text><text x="430" y="162" fill="#FFAA44" font-weight="600" text-anchor="end">10%</text>
+  <rect x="24" y="170" width="406" height="6" rx="3" fill="#1A1A20"/>
+  <rect x="24" y="170" width="0" height="6" rx="3" fill="#10B981"><animate attributeName="width" from="0" to="41" dur="1s" begin="0.8s" fill="freeze"/></rect>
 
-  <!-- HTML -->
-  <text x="24" y="194">HTML</text><text x="420" y="194" fill="#FF9E5E">8%</text>
-  <rect x="24" y="200" width="396" height="8" rx="4" fill="#1a0700" opacity="0"/>
+  <!-- Other -->
+  <text x="24" y="190">HTML &amp; Shell</text><text x="430" y="190" fill="#71717A" font-weight="600" text-anchor="end">5%</text>
 </g>
 </svg>
